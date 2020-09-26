@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: immigration-services
+  data:
+    mongodb:
+      uri: ${mongo.url}
+      database: ${mongo.db}
+
